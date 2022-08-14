@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "of.yaml-template"
+version = "0.1.0"
+description = "Template and demo for iydon/of.yaml repository"
+authors = ["iydon <liangiydon@gmail.com>"]
+license = "GPL-3.0-only"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+ifoam = {version = "^0.11.1", extras = ["full"]}
+numpy = "^1.23.2"
+matplotlib = "^3.5.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
