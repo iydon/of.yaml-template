@@ -2,7 +2,7 @@
 ## Dependency Management
 | Tool                                              | File                                                   |
 | ------------------------------------------------- | ------------------------------------------------------ |
-| [pip](https://github.com/pypa/pip)                | [requirements.txt](config/requirements.txt)            |
+| [pip](https://github.com/pypa/pip)                | [requirements.txt](config/pip/requirements.txt)        |
 | [pipenv](https://github.com/pypa/pipenv)          | [Pipfile](config/pipenv/Pipfile)                       |
 | [poetry](https://github.com/python-poetry/poetry) | [pyproject.toml](config/poetry/pyproject.toml)         |
 | [pdm](https://github.com/pdm-project/pdm)         | [config/pdm/pyproject.toml](config/pdm/pyproject.toml) |
