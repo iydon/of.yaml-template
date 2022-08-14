@@ -1,4 +1,12 @@
-.PHONY: main
+.PHONY: pipenv poetry main
+
+pipenv:
+	cp config/$@/* .
+	$@ shell
+
+poetry:
+	cp config/$@/* .
+	$@ shell
 
 main:
 	cp script/$@.py .
