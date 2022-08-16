@@ -1,4 +1,4 @@
-.PHONY: pipenv poetry main
+.PHONY: pipenv poetry naca_airfoil
 
 pipenv:
 	cp config/$@/* .
@@ -8,7 +8,7 @@ poetry:
 	cp config/$@/* .
 	$@ shell
 
-main:
+naca_airfoil:
 	cp script/$@.py .
 	python3 $@.py
 	rm $@.py

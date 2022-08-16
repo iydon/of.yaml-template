@@ -11,9 +11,9 @@
 ## Available Script(s)
 | File                      | Description                                                                                                                                                                                                              |
 | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [main.py](script/main.py) | By changing the angle of attack in the [nacaAirfoil](https://github.com/OpenFOAM/OpenFOAM-7/tree/master/tutorials/compressible/rhoPimpleFoam/RAS/nacaAirfoil) case to find the corresponding lift and drag coefficients. |
+| [nacaAirfoil.py](script/nacaAirfoil.py) | By changing the angle of attack in the [nacaAirfoil](https://github.com/OpenFOAM/OpenFOAM-7/tree/master/tutorials/compressible/rhoPimpleFoam/RAS/nacaAirfoil) case to find the corresponding lift and drag coefficients. |
 
 
 ## Visualization Result(s)
-### [main.py](script/main.py)
-![](static/image.png)
+### [nacaAirfoil](script/nacaAirfoil.py)
+![](static/nacaAirfoil.png)

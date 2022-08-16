@@ -107,6 +107,6 @@ if __name__ == '__main__':
             xlabel=r'Angle of Attack ($\alpha$)',
             ylabel=r'Coefficient ($C$)',
         ) \
-        .save('static/image.png', legend_ncol=1, grid=True, transparent=True)
+        .save('static/nacaAirfoil.png', legend_ncol=1, grid=True, transparent=True)
 
-    p.Path('static/data.json').write_text(json.dumps(data))
+    p.Path('static/nacaAirfoil.json').write_text(json.dumps(data))
